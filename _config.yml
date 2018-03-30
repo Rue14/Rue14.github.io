@@ -84,7 +84,9 @@ search:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: git@github.com:Rue14/Rue14.github.io.git
+  branch: master
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
